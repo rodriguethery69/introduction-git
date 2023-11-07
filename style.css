@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+.parent{
+    position:relative;
+}
+.box
+{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 50%;
+}
+#checkbox:checked ~ .box {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#checkbox, .box {
+    position: absolute;
+    top: 0;
+    
+}
